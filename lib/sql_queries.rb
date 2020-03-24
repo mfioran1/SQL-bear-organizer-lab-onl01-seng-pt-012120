@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT name, age FROM bears WHERE gender = 'f';"
+  "SELECT name, age FROM bears WHERE gender = 'F';"
 end
 # INSERT INTO bears (id, name, age, gender, color, temperament, alive) VALUES
 # (1,"Mr. Chocolate", 20, "M", "dark brown", "calm", 0),
