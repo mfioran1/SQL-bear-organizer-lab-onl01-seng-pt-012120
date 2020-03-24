@@ -1,8 +1,7 @@
 def selects_all_female_bears_return_name_and_age
   "SELECT name, age FROM bears WHERE gender = 'F';"
 end
-# INSERT INTO bears (id, name, age, gender, color, temperament, alive) VALUES
-# (1,"Mr. Chocolate", 20, "M", "dark brown", "calm", 0),
+
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
   "SELECT name FROM bears ORDER BY name;"
@@ -25,8 +24,10 @@ def selects_most_prominent_color_and_returns_with_count
 end
 
 def counts_number_of_bears_with_goofy_temperaments
-  "Write your SQL query here"
+  "SELECT COUNT(temperament) FROM bears WHERE temperament = 'goofy';"
 end
+# INSERT INTO bears (id, name, age, gender, color, temperament, alive) VALUES
+# (1,"Mr. Chocolate", 20, "M", "dark brown", "calm", 0),
 
 def selects_bear_that_killed_Tim
   "Write your SQL query here"
